@@ -35,3 +35,24 @@ class(pika)
 #Add L to make numbers into integers
 bear <- c(20L,3L,5L,18L)
 ```
+
+## Vector addition and subtraction
+
+```{r}
+ringtail <- c(4.3,8.9,2.6,7.1)
+
+fox <- c(12.0,23,1.5,8.2)
+
+ringtail_plus_fox <-ringtail + fox
+ringtail_minus_fox <- ringtail - fox
+
+## Scalar multiplier - change the magnitude
+
+100*ringtail
+
+5/fox
+
+## Dot product %*%: 
+
+ringtail%*%fox
+```
